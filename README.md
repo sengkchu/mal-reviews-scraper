@@ -1,6 +1,6 @@
-# MAL reviews Scraper
+# MAL Reviews Scraper
 
-Python Scripts and IPython notebooks for scraping anime review data from [https://myanimelist.net/](https://myanimelist.net/) into a SQLite database.
+Python Scripts and IPython notebooks for web scraping anime review data from [https://myanimelist.net/](https://myanimelist.net/) into a SQLite database.
 
 
 ### Database Schema:
@@ -9,9 +9,11 @@ Python Scripts and IPython notebooks for scraping anime review data from [https:
 
 ### Repo Contents:
 
-+ `anime.db` Sample database with the SQL tables created with ~5 pages of anime data scraped.
++ `anime.db` Sample database with the SQL tables already created with ~5 pages of anime data scraped.
 + `config.py` Configuration file for controlling the sleep times between each requests.
-+ `createtables.py` Generates the SQL tables for the above schema.
+	+ Default sleep times are set between 9-18 seconds, be courteous!
+	+ Studios, tags and anime data are scraped everytime, the number of pages on the reviews section can be controlled.
++ `createtables.py` SQL queries for the above schema.
 + `malscraper.py` Main Python script for scraping the data.
 + `requirements.txt`  Requirements for this repo.
 + `MAL-database-interface.ipynb` IPython notebook for interfacing the SQL database and viewing tables in pandas.
