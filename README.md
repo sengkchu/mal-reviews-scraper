@@ -4,7 +4,7 @@ Python Scripts and IPython notebooks for scraping anime review data from [https:
 
 
 ### Database Schema:
-![database_schema](databaseschema.png)
+![database_schema](databaseschema.PNG)
 
 
 ### Repo Contents:
