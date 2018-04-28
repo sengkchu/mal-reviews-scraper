@@ -18,7 +18,8 @@ Python Scripts and IPython notebooks for web scraping anime review data from [ht
 + `requirements.txt`  Requirements for this repo.
 + `MAL-database-interface.ipynb` IPython notebook for interfacing the SQL database and viewing tables in pandas.
 + `malscraper.ipynb` IPython notebook that can be used for web scraping instead of `malscraper.py`.
-
++ Methodology and data analysis folder:
+	+ `MAL-Scraper Methodology and Data Analysis.ipynb` Detailed writeup of this project.
 ### Running the Scripts Locally (Windows):
 
 + Clone this repository.
