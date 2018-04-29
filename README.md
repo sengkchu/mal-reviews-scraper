@@ -39,7 +39,7 @@ Python Scripts and IPython notebooks for web scraping anime review data from [ht
 
 ### Running the Scripts in Conda Environment with Ubuntu:
 + Clone this repository.
-+ Create virtual environment `$> conda create --name mal-scraper python=3.6`
-+ Start virtual environment `$> source activate mal-scraper`
-+ Install packages `$> while read requirement; do conda install --yes $requirement; done < requirements.txt`
++ Create virtual environment `$ conda create --name mal-scraper python=3.6`
++ Start virtual environment `$ source activate mal-scraper`
++ Install packages `$ while read requirement; do conda install --yes $requirement; done < requirements.txt`
 + Run `malscraper.py`
